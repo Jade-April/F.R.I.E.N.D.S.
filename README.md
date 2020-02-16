@@ -2,12 +2,11 @@
 
 <h2>What is it?</h2>
 <p>The project is aimed to establish a recommendation system taking advantage of Twitter API to help users find the most ideal and suitable friends of themselves. 
-<br>
-<p>Assumption: Network (real life distance), interest, personality, location are the most influential factors of friendship. Personality and location choices are personal preference whereas network and interest yield to computer calculation.
-<p>Assumption Basis: Psychological study, intuition, available data from Twitter
+<li>Assumption: Network (real life distance), interest, personality, location are the most influential factors of friendship. Personality and location choices are personal preference whereas network and interest yield to computer calculation.
+<li>Assumption Basis: Psychological study, intuition, available data from Twitter
 
 <h2>Main features</h2>
-Here are the things that Squirrel Tracker can achieve:
+Here is how the system works:
 <p>
 <li>Visually showing the location of all squirrel sightings in the central park by an OpenStreets map. Users can browse the map at https://tools-for-analytics-254001.appspot.com/squirrel/map.
 <p>

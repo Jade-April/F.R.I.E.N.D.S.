@@ -1,4 +1,4 @@
-<img src='https://raw.githubusercontent.com/Jade-April/Project-Group-16/master/top.jpg' alt="Italian Trulli">
+<img src='top.PNG' alt="Italian Trulli">
 
 <h2>What is it?</h2>
 <p>Squirrel Tracker is an application that is designed for Mr. Hosencratz, which imports the 2018 Central Park Squirrel Census data and allow users to view, update and add squirrels data.

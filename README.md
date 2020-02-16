@@ -24,9 +24,3 @@ Here is how the system works:
   <li><strong>Bonus 2: Emoji</strong>
   <p>We used Demoji package to accurately find or remove emojis from a blob of text. We select top 50 emojis of each person and generate common emoji with the recommended friends. 
 <p>
-<h2>Where to get it?</h2>
-<p>This application can be found at https://tools-for-analytics-254001.appspot.com.
-
-<h2>Dependencies</h2>
-<p>To use this application, you can just click the links above and no dependency is needed. </p>
-<p>However, if you want to run this application in your local ip address, see the <a href='https://github.com/Jade-April/Project-Group-16/blob/master/requirements.txt'>requirements.txt</a> for minimum supported versions of required dependencies.

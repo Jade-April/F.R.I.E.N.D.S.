@@ -1,7 +1,10 @@
 <img src='top.PNG' alt="Italian Trulli" style="width:300px;height:200px;">
 
 <h2>What is it?</h2>
-<p>Squirrel Tracker is an application that is designed for Mr. Hosencratz, which imports the 2018 Central Park Squirrel Census data and allow users to view, update and add squirrels data.
+<p>The project is aimed to establish a recommendation system taking advantage of Twitter API to help users find the most ideal and suitable friends of themselves. 
+<br>
+<p>Assumption: Network (real life distance), interest, personality, location are the most influential factors of friendship. Personality and location choices are personal preference whereas network and interest yield to computer calculation.
+<p>Assumption Basis: Psychological study, intuition, available data from Twitter
 
 <h2>Main features</h2>
 Here are the things that Squirrel Tracker can achieve:

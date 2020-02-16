@@ -1,14 +1,17 @@
 <img src='top.PNG' alt="Italian Trulli" style="width:300px;height:200px;">
 
 <h2>What is it?</h2>
-<p>The project is aimed to establish a recommendation system taking advantage of Twitter API to help users find the most ideal and suitable friends of themselves. 
+<p><strong>The project is aimed to establish a recommendation system taking advantage of Twitter API to help users find the most ideal and suitable friends of themselves. </strong>
 <li><b>Assumption:</b> Network (real life distance), interest, personality, location are the most influential factors of friendship. Personality and location choices are personal preference whereas network and interest yield to computer calculation.
 <li><b>Assumption Basis:</b> Psychological study, intuition, available data from Twitter
 
 <h2>Main features</h2>
 Here is how the system works:
 <p>
-<li>Visually showing the location of all squirrel sightings in the central park by an OpenStreets map. Users can browse the map at https://tools-for-analytics-254001.appspot.com/squirrel/map.
+<li>Layer I of recommender system: MBTI personality 
+  <p>Based on our assumption, personality is another dark matter of friendship. People tend to be more comfortable with some special types of personality, or they may be attracted with people with opposite personality. Thus, it is hard to determine which one is better, so it is also a subjective area left for personal choice.</p>
+  <p>In this part, we classified users in our dataset to 16 MBTI personality types according to the content of their tweets with Python library FastAI. We tuned the pretrained NLP model AWD_LSTM to serve our goal. Our training dataset is downloaded from Kaggle. Our reference: https://www.myersbriggs.org/my-mbti-personality-type/mbti-basics/the-16-mbtitypes.htm?bhcp=1
+
 <p>
 <li>Displaying unique ids of all squirrel sightings by using a list. Users can look through this list at https://tools-for-analytics-254001.appspot.com/squirrel/sightings.
 <p>

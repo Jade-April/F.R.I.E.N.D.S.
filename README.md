@@ -17,15 +17,13 @@ Here is how the system works:
   <p><b>Distance [network]:</b> Instead of one-way following, 2-way following can indicates real-life friendship. Thus, we built the feature “distance”. The problem was that some users don’t have any path between each other, then the distance should be infinity which would cause error. To solve this, we chose 10,000 to represent infinity. It was found that distance in our dataset can be at most 2, thus we believe that 10,000 is big enough. 
   <p><b>Similarity [interest]:</b> LSI measures the similarity in words and topics, which can measure similarity in interest. All other users’ tweets (all users except A) are inputted as dictionary and corpus, then input A’s tweets to output the similarity with other users</p>
     <p>We tried Decision Tree, Random Forest, Bagging on our dataset using GridSearchCV to find the best parameter. Finally we chose Random Forest because it has best performance.  
-      
-<li>Displaying unique ids of all squirrel sightings by using a list. Users can look through this list at https://tools-for-analytics-254001.appspot.com/squirrel/sightings.
 <p>
-<li>Permitting users to update the information of a particular squirrel sighting. Users can use this feature both by clicking the “Update” bottoms shown besides the unique id of each squirrel sighting in the list, and directly entering the update page by adding the unique id of a squirrel sighting behind the link https://tools-for-analytics-254001.appspot.com/squirrel/sightings/<unique_squirrel_id>.
+  <li><strong>Bonus 1: Personal Topic Analysis</strong>
+  <p>Based on tweets she/he has posted before; we try to find a pattern and deduce the TOP 3 TOPICS a specific user focuses on in his/her daily life so as to clarify target use’s interests and complete the match more efficiently. We can even provide them with some insights on what topic they might both be interested in when creating the first conversation. 
 <p>
-<li>Allowing users to add a new squirrel sighting into the database. Users can use this feature both by clicking the “Add” bottom shown on the top of the list, and directly entering the add page at https://tools-for-analytics-254001.appspot.com/squirrel/sightings/add. For all detailed fields for a squirrel sighting, the latitude, longitude, unique squirrel id, shift and date cannot be stayed blank.
+  <li><strong>Bonus 2: Emoji</strong>
+  <p>We used Demoji package to accurately find or remove emojis from a blob of text. We select top 50 emojis of each person and generate common emoji with the recommended friends. 
 <p>
-<li>Giving a statistical description of all squirrel sightings, including running, shift, primary fur color, latitude and longitude. Users can find these five statistical table at https://tools-for-analytics-254001.appspot.com/squirrel/sightings/stats.
-
 <h2>Where to get it?</h2>
 <p>This application can be found at https://tools-for-analytics-254001.appspot.com.
 

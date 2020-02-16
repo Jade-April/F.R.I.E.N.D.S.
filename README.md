@@ -2,8 +2,8 @@
 
 <h2>What is it?</h2>
 <p>The project is aimed to establish a recommendation system taking advantage of Twitter API to help users find the most ideal and suitable friends of themselves. 
-<li>Assumption: Network (real life distance), interest, personality, location are the most influential factors of friendship. Personality and location choices are personal preference whereas network and interest yield to computer calculation.
-<li>Assumption Basis: Psychological study, intuition, available data from Twitter
+<li><b>Assumption:</b> Network (real life distance), interest, personality, location are the most influential factors of friendship. Personality and location choices are personal preference whereas network and interest yield to computer calculation.
+<li><b>Assumption Basis:</b> Psychological study, intuition, available data from Twitter
 
 <h2>Main features</h2>
 Here is how the system works:
